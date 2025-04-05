@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+     <!-- Toastify CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>airdrop links</title>
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-500 h-screen">
+    <main class="flex flex-col items-center justify-items-center ">
+        <div class="">
+            <h1 class="text-4xl text-white font-bold mb-8">Airdrop Links</h1>
+            <div class="clipboard-container">
+                <span class="wallet-text" id="maskedWallet">0x3dae...12f2</span>
+                <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+            <a target="_blank" href="https://www.magicnewton.com/portal/rewards" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">magic newton</a>
+            <a target="_blank" href="https://ofc.onefootball.com/s2/?referral=onefootballculb" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">one football</a>
+            <a target="_blank" href="https://testnet.humanity.org/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">humanity protocol</a>
+            <a target="_blank" href="https://myriad.markets/earn" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">myriad</a>
+            <a target="_blank" href="https://cess.network/deshareairdrop/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">cess</a>
+            <a target="_blank" href="https://node.hyper.space/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">hyperspace</a>
+            <a target="_blank" href="https://testnet.bridge.chainbase.com/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">chainbase</a>
+            <a target="_blank" href="https://eth.blockscout.com/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">blockscout</a>
+            <a target="_blank" href="https://app.sogni.ai/creator" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">sogni</a>
+            <a target="_blank" href="https://skynet.certik.com/quest" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">certik</a>
+            <a target="_blank" href="https://quests.avalon.online/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">avalon </a>
+            <a target="_blank" href="https://blockjoker.org/home" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">blockjoker</a>
+            <a target="_blank" href="https://signup.billions.network/sign-in?rc=6DSTAWEV" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">billions network</a>
+            <a target="_blank" href="https://dreamerquests.partofdream.io/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">part of dream</a>
+            <a target="_blank" href="https://klokapp.ai/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">klok ai</a>
+            <a target="_blank" href="https://monadscore.xyz/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">monad score</a>
+            <a target="_blank" href="https://app.concero.io/profile" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">concero</a>
+            <a target="_blank" href="" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">beamable </a>
+            <a target="_blank" href="https://www.inferium.io/#/social-task" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">inferium</a>
+            <a target="_blank" href="https://boost.absinthe.network/recall/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">recall</a>
+            <a target="_blank" href="https://dashboard.3dos.io/home/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">3dos</a>
+            <a target="_blank" href="https://spacerace.entity.global/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">spacerace</a>
+            <a target="_blank" href="https://my.aidapp.com/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">aida</a>
+            <a target="_blank" href="https://spotzero.tartagames.com/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">spotzero</a>
+            <a target="_blank" href="https://www.parasail.network/season" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">parasail</a>
+            <a target="_blank" href="https://play.kgen.io/k-drop" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">kgen</a>
+
+        </div>
+        <div class="flex flex-col items-center justify-items-center">
+            <h1 class="text-4xl text-white font-bold mb-8 mt-5">TESTNETS</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+            <a target="_blank" href="https://app.testnet.liqfinity.com/sign-in?redirectUrl=/user/wallets" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">liqfinity</a>
+            <a target="_blank" href="https://earn.taker.xyz/?start=BE337" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Taker</a>
+            <a target="_blank" href="https://app.odx.so/trade?token=0x1c3c4FDE30257A1950e24F317e0924d5f18EBeef" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Odx labs</a>
+            <a target="_blank" href="https://test-portal.dango.exchange/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">dango</a>
+            <a target="_blank" href="https://app.union.build/transfer?source=union-testnet-9&destination=17000&asset=0x6d756e6f" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">union build</a>
+            <a target="_blank" href="https://mavryk.org/testnet" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">mavryk</a>
+            <a target="_blank" href="https://dashboard.arch.network/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">arch network</a>
+            <p target="_blank"  class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">moonveil</p>
+            <a target="_blank" href="https://blended-iq.vercel.app/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">fluent</a>
+            <a target="_blank" href="https://farm.sophon.xyz/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">sophon</a>
+            <a target="_blank" href="https://testnet.somnia.network/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">somnia</a>
+            <a target="_blank" href="https://sosovalue.com/tokenbar" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">sosovalue</a>
+
+
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-items-center">
+            <h1 class="text-4xl text-white font-bold mb-8 mt-5">DEPINS</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
+            <a class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Dawn</a>
+            <a class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Despeed</ptarget=>
+            <a target="_blank" href="https://testnet.openledger.xyz/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">openledger</a>
+            <a target="_blank" href="https://sparkchain.ai/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Spark</a>
+            <a target="_blank" href="https://app.getgrass.io/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Grass</a>
+            <a target="_blank" href="https://bless.network/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Bless</a>
+            <a target="_blank" href="https://app.blockmesh.xyz/ui/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Blockmesh</a>
+            <a target="_blank" href="https://dashboard.teneo.pro/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Teneo</a>
+            <a target="_blank" href="https://app.mygate.network/dashboard" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Mygate</a>
+            <a target="_blank" href="" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Toggle</a>
+            <a target="_blank" href="https://www.parasail.network/season" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">parasail</a>
+            <a class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">layeredge</a>
+            <a class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Stork</a>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-items-center">
+            <h1 class="text-4xl text-white font-bold mb-8 mt-5">Faucets</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+            <a target="_blank" href="https://faucet.hoodscan.io/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">faucet hood scan</a>
+            <a target="_blank" href="https://cloud.google.com/application/web3/faucet/ethereum/sepolia" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">cloud google</a>
+            <a target="_blank" href="https://faucet.circle.com/" class="bg-white text-blue-500 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">faucet circle</a>
+            
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

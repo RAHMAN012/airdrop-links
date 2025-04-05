@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clipboard-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.wallet-input {
+    border: none;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+    background: none;
+}
+.copy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.copy-btn:hover {
+    background-color: #45a049;
+}
